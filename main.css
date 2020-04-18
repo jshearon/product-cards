@@ -2,6 +2,7 @@ body {
 background-color: white;
 padding: 0;
 margin: 0;
+font-family: 'Manrope', sans-serif;
 }
 
 .dark-primary-color    { background: #0288D1; }
@@ -20,14 +21,16 @@ margin: 0;
   justify-content: space-evenly;
 }
 
-
-
 .card {
   border-radius: 10px;
   border: 1px solid #03A9F4;
   box-shadow: 10px 8px #f2f2f2;
   width: 30%;
   margin: 20px 1.33%;
+}
+
+.card header {
+  vertical-align: middle;
 }
 
 .product_title {
@@ -68,6 +71,17 @@ margin: 0;
 .specs, .pricing {
   padding: 10px;
   font-weight: bold;
+  font-size: 12px;
+  line-height: 1.1em;
+}
+
+.specs h4 {
+  line-height: 1.45;
+}
+
+.specs header {
+  margin: 0;
+  padding: 0;
 }
 
 .specs footer {
