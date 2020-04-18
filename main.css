@@ -87,3 +87,21 @@ font-family: 'Manrope', sans-serif;
 .specs footer {
   font-weight: normal;
 }
+
+.image-positioner {
+  width: 100%;
+  position: relative;
+  padding: auto;
+}
+
+.top-image {
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 0px !important;
+}
