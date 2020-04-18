@@ -4,6 +4,16 @@ padding: 0;
 margin: 0;
 }
 
+.dark-primary-color    { background: #0288D1; }
+.default-primary-color { background: #03A9F4; }
+.light-primary-color   { background: #B3E5FC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FF9800; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -14,15 +24,16 @@ margin: 0;
 
 .card {
   border-radius: 10px;
-  border: 1px solid lightblue;
-  box-shadow: 10px 8px #9f9f9f;
+  border: 1px solid #03A9F4;
+  box-shadow: 10px 8px #f2f2f2;
   width: 30%;
-  margin: 20px;
+  margin: 20px 1.33%;
 }
 
 .product_title {
-  border: 1px solid lightblue;
+  border: 1px solid #03A9F4;
   border-radius: 10px;
+  min-height: 8em;
 }
 
 .overview img, p {
@@ -32,8 +43,12 @@ margin: 0;
 
 .overview h5 {
   padding: 10px; 
-  background-color: gray;
-  color: yellow;
+  color: #FF9800;
+}
+
+.overview p {
+  min-height: 8em;
+  vertical-align: center;
 }
 
 .card h2 {
@@ -43,10 +58,11 @@ margin: 0;
 
 .overview img {
   display: block;
-  width: auto;
-  max-height: 250px;
-  margin-left: auto;
-  margin-right: auto;
+  max-height: 100%;
+  max-width: 90%;
+  margin: 10px auto 10px auto;
+  border: 1px solid #BDBDBD;
+  padding: 0;
 }
 
 .specs, .pricing {
