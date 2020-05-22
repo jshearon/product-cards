@@ -2,7 +2,7 @@
 
 A simple class exercise to experiment with building bootstrap cards and absolute image positioning. 
 
-![](product-cards-ss.png)
+![](product-cards-ss.png | width=250)
 
 ## Installation
 
